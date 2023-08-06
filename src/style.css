@@ -6,13 +6,16 @@
   --branding-color: #66bfbf;
 }
 
-h1 h2 {
-  font-family: var(--main-font);
-}
 p {
-  font-size: 30px;
+  font-size: 15px;
   font-family: var(--secondary-font);
   font-weight: normal;
+}
+
+.hero p {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .hero {
@@ -21,13 +24,21 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
+.hero h2 {
+  font-family: var(--main-font);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
 h1 {
   font-size: 90px;
+  font-family: var(--main-font);
 }
 h2 {
   font-weight: normal;
   font-size: 40px;
   line-height: 2;
+  font-family: var(--main-font);
 }
 
 .btn-branding {
@@ -38,4 +49,33 @@ h2 {
   line-height: 27px;
   padding: 15px 30px;
   font-family: var(--secondary-font);
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-desciption {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
