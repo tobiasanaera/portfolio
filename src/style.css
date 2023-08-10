@@ -62,7 +62,22 @@ h2 {
 .project-desciption {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 60px;
+  line-height: 80px;
+}
 
+.about-section h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--secondary-font);
+}
+.about-section-content {
+  margin: 30px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -77,5 +92,15 @@ h2 {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 44px;
+  }
+  .about-section h2 {
+    font-size: 15px;
   }
 }
