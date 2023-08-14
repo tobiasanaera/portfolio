@@ -108,6 +108,11 @@ h2 {
 .logo-main {
   max-height: 80px;
 }
+.link {
+  text-decoration: none;
+  display: block;
+  margin: 20px auto;
+}
 nav {
   font-family: var(--main-font);
 }
