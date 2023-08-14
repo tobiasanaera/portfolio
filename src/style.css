@@ -104,3 +104,20 @@ h2 {
     font-size: 15px;
   }
 }
+.logo-small,
+.logo-main {
+  max-height: 80px;
+}
+nav {
+  font-family: var(--main-font);
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
