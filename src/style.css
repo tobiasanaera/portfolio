@@ -40,9 +40,13 @@ h2 {
   line-height: 2;
   font-family: var(--main-font);
 }
+h3 {
+  font-size: 40px;
+}
 h4 {
   font-family: var(--main-font);
 }
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 5px;
@@ -97,32 +101,7 @@ h4 {
 .about-section-content {
   margin: 30px;
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-  }
 
-  .hero {
-    padding: 80px 20px;
-  }
-  .hero p {
-    font-size: 20px;
-  }
-  .project-desciption {
-    padding: 0;
-    text-align: center;
-  }
-  .about-section {
-    text-align: center;
-    padding: 0;
-  }
-  .about-section h1 {
-    font-size: 44px;
-  }
-  .about-section h2 {
-    font-size: 15px;
-  }
-}
 .logo-small,
 .logo-main {
   max-height: 80px;
@@ -164,6 +143,7 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
+
 footer .social-links a {
   margin: 20px 0;
   color: var(--branding-color);
@@ -176,4 +156,33 @@ footer .social-links a {
 footer .social-links a:hover {
   color: black;
   background: var(--main-background);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 44px;
+  }
+  .about-section h2 {
+    font-size: 15px;
+  }
 }
